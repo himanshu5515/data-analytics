@@ -1,7 +1,7 @@
---Priyanshu Dubey
---sec AE
---uni roll no.:2215500115
---class roll no.:35
+--Himanshu Sharma
+--sec N
+--uni roll no.:2215000806
+--class roll no.:32
 --Group no.:25
 --  SQL query template to help you calculate HDFC's market share and compare it with competitors. 
 --  Let's assume we're loading the data into SQL tables named bank_sector,
@@ -120,3 +120,4 @@ JOIN (
     GROUP BY month
 ) AS industry_avg
 ON hdfc_data.month = industry_avg.month;
+
